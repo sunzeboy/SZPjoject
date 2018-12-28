@@ -20,6 +20,7 @@
 		68F8CE4121D6170600F557FB /* ProjectTemplate Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F8CE4021D6170600F557FB /* ProjectTemplate Dev-Info.plist */; };
 		68F8CE4621D6179200F557FB /* Bundle-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4521D6179200F557FB /* Bundle-Extension.swift */; };
 		68F8CE4721D617E100F557FB /* Bundle-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4521D6179200F557FB /* Bundle-Extension.swift */; };
+		68F8CE4D21D61D1300F557FB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4C21D61D1300F557FB /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		68F8CE3E21D6130B00F557FB /* ProjectTemplate Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectTemplate Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F8CE4021D6170600F557FB /* ProjectTemplate Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProjectTemplate Dev-Info.plist"; sourceTree = "<group>"; };
 		68F8CE4521D6179200F557FB /* Bundle-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Extension.swift"; sourceTree = "<group>"; };
+		68F8CE4C21D61D1300F557FB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,14 +75,16 @@
 		68F8CE1F21D612B200F557FB /* ProjectTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				68F8CE4B21D61CF600F557FB /* Common */,
+				68F8CE4A21D61CC600F557FB /* Service */,
 				68F8CE4421D6174800F557FB /* Extensions */,
-				68F8CE4021D6170600F557FB /* ProjectTemplate Dev-Info.plist */,
 				68F8CE2021D612B200F557FB /* AppDelegate.swift */,
 				68F8CE2221D612B200F557FB /* ViewController.swift */,
 				68F8CE2421D612B200F557FB /* Main.storyboard */,
 				68F8CE2721D612B400F557FB /* Assets.xcassets */,
 				68F8CE2921D612B400F557FB /* LaunchScreen.storyboard */,
 				68F8CE2C21D612B400F557FB /* Info.plist */,
+				68F8CE4021D6170600F557FB /* ProjectTemplate Dev-Info.plist */,
 			);
 			path = ProjectTemplate;
 			sourceTree = "<group>";
@@ -91,6 +95,21 @@
 				68F8CE4521D6179200F557FB /* Bundle-Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		68F8CE4A21D61CC600F557FB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		68F8CE4B21D61CF600F557FB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				68F8CE4C21D61D1300F557FB /* Observable.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F8CE4D21D61D1300F557FB /* Observable.swift in Sources */,
 				68F8CE2321D612B200F557FB /* ViewController.swift in Sources */,
 				68F8CE4621D6179200F557FB /* Bundle-Extension.swift in Sources */,
 				68F8CE2121D612B200F557FB /* AppDelegate.swift in Sources */,
