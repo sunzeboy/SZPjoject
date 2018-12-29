@@ -10,13 +10,16 @@ def need_pods
 end
 
 target 'ProjectTemplate' do
-    need_pods
+#    need_pods
 end
 
 target 'ProjectTemplate Dev' do
-    need_pods
+#    need_pods
 end
 
+target 'NetworkService' do
+    need_pods
+end
 
 post_install do |installer|       
    installer.pods_project.targets.each do |target| 

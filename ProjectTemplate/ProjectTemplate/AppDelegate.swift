@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NetworkService
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        apiProvider.request(SZNetworkService.login(userid: "admin", passwd: "abc.123")) { (result) in
+            
+        }
         return true
     }
 
