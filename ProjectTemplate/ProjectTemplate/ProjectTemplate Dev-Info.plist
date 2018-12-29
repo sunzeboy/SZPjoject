@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ApplicationAPI</key>
+	<dict>
+		<key>login</key>
+		<string>login</string>
+	</dict>
+	<key>timeoutInterval</key>
+	<integer>60</integer>
 	<key>serverBaseURL</key>
 	<string>http://dev.server.com/api/</string>
 	<key>CFBundleDevelopmentRegion</key>
