@@ -25,6 +25,10 @@
 		68F8CE4F21D6229E00F557FB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4E21D6229E00F557FB /* NetworkService.swift */; };
 		68F8CE5321D7143D00F557FB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4C21D61D1300F557FB /* Observable.swift */; };
 		68F8CE5421D7144200F557FB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE4E21D6229E00F557FB /* NetworkService.swift */; };
+		68F8CE5621D746A600F557FB /* SZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE5521D746A600F557FB /* SZViewController.swift */; };
+		68F8CE5721D746A600F557FB /* SZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE5521D746A600F557FB /* SZViewController.swift */; };
+		68F8CE5921D747C100F557FB /* SZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE5821D747C100F557FB /* SZView.swift */; };
+		68F8CE5A21D747C100F557FB /* SZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8CE5821D747C100F557FB /* SZView.swift */; };
 		8B8F870F63927CA3FE43506D /* Pods_ProjectTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2676273951560B0A07346241 /* Pods_ProjectTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,8 @@
 		68F8CE4521D6179200F557FB /* Bundle-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Extension.swift"; sourceTree = "<group>"; };
 		68F8CE4C21D61D1300F557FB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		68F8CE4E21D6229E00F557FB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		68F8CE5521D746A600F557FB /* SZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZViewController.swift; sourceTree = "<group>"; };
+		68F8CE5821D747C100F557FB /* SZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZView.swift; sourceTree = "<group>"; };
 		69F1E4613221484C30C177CC /* Pods_ProjectTemplate_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C53040758080AFAC5EB7F6 /* Pods-ProjectTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		96733905ABF7A6DA3C0367DC /* Pods-ProjectTemplate Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate Dev/Pods-ProjectTemplate Dev.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				68F8CE4421D6174800F557FB /* Extensions */,
 				68F8CE2021D612B200F557FB /* AppDelegate.swift */,
 				68F8CE2221D612B200F557FB /* ViewController.swift */,
+				68F8CE5821D747C100F557FB /* SZView.swift */,
 				68F8CE2421D612B200F557FB /* Main.storyboard */,
 				68F8CE2721D612B400F557FB /* Assets.xcassets */,
 				68F8CE2921D612B400F557FB /* LaunchScreen.storyboard */,
@@ -145,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				68F8CE4C21D61D1300F557FB /* Observable.swift */,
+				68F8CE5521D746A600F557FB /* SZViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -356,11 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F8CE5921D747C100F557FB /* SZView.swift in Sources */,
 				68F8CE4F21D6229E00F557FB /* NetworkService.swift in Sources */,
 				68F8CE4D21D61D1300F557FB /* Observable.swift in Sources */,
 				68F8CE2321D612B200F557FB /* ViewController.swift in Sources */,
 				68F8CE4621D6179200F557FB /* Bundle-Extension.swift in Sources */,
 				68F8CE2121D612B200F557FB /* AppDelegate.swift in Sources */,
+				68F8CE5621D746A600F557FB /* SZViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,11 +378,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F8CE5A21D747C100F557FB /* SZView.swift in Sources */,
 				68F8CE5421D7144200F557FB /* NetworkService.swift in Sources */,
 				68F8CE5321D7143D00F557FB /* Observable.swift in Sources */,
 				68F8CE4721D617E100F557FB /* Bundle-Extension.swift in Sources */,
 				68F8CE3421D6130B00F557FB /* ViewController.swift in Sources */,
 				68F8CE3521D6130B00F557FB /* AppDelegate.swift in Sources */,
+				68F8CE5721D746A600F557FB /* SZViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

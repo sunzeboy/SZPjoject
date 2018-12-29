@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: SZViewController<SZView> {
 
+    override func loadView() {
+        super.loadView()
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
