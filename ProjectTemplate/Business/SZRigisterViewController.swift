@@ -1,5 +1,5 @@
 //
-//  SZLoginViewController.swift
+//  SZRigisterViewController.swift
 //  Business
 //
 //  Created by !>-<! on 2019/3/4.
@@ -10,9 +10,9 @@ import UIKit
 import Common
 import Material
 
-
-public class SZLoginViewController: SZViewController<SZLoginView> ,TextFieldDelegate
-{
+public class SZRigisterViewController: SZViewController<SZRigisterView>, TextFieldDelegate, SwitchDelegate {
+    
+    
 
     public override func loadView()
     {
@@ -20,12 +20,22 @@ public class SZLoginViewController: SZViewController<SZLoginView> ,TextFieldDele
         customView.delegate = self
     }
     
-    override public func viewDidLoad() {
+    override public func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        title = "登录"
+
+        title = "注册"
+
     }
     
+
+    @objc
+    internal func handleRigister(button: UIButton)
+    {
+        
+    }
+    
+    /// TextFieldDelegate
     public func textFieldDidEndEditing(_ textField: UITextField)
     {
         (textField as? ErrorTextField)?.isErrorRevealed = false
@@ -43,31 +53,18 @@ public class SZLoginViewController: SZViewController<SZLoginView> ,TextFieldDele
         return true
     }
 
-    @objc
-    internal func handleLogin(button: UIButton)
-    {
-        customView.usernameField?.resignFirstResponder()
-        customView.passwordField?.resignFirstResponder()
-    }
     
-    @objc
-    internal func handleRigister(button: UIButton)
+    /// SwitchDelegate
+    public func switchDidChangeState(control: Switch, state: SwitchState)
     {
-        navigationController?
-            .pushViewController(SZRigisterViewController(), animated: true)
-    }
-    
-    @objc
-    internal func handleForget(button: UIButton)
-    {
-        
-    }
-    
-    @objc
-    internal func handleVisitor(button: UIButton)
-    {
-        
+        if state == .on
+        {
+            customView.sex.text = "男"
+        }
+        else
+        {
+            customView.sex.text = "女"
+        }
     }
 }
-
 

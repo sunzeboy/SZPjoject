@@ -21,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        apiProvider.request(SZNetworkService.login(userid: "admin", passwd: "abc.123")) { (result) in
 //
 //        }
-        window?.rootViewController = SZLoginViewController()
+        window?.rootViewController = UINavigationController(rootViewController: SZLoginViewController())
+//        window?.rootViewController = SZRigisterViewController()
         window?.makeKeyAndVisible()
         return true
     }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		05A098D7CEC53ED9C013DBC2 /* Pods_Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF27A28D92160FC3AADA536A /* Pods_Business.framework */; };
 		45096ABED1ABA074D421636C /* Pods_ProjectTemplate_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F1E4613221484C30C177CC /* Pods_ProjectTemplate_Dev.framework */; };
+		686228E2222D5A8100D2DA76 /* SZRigisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686228E1222D5A8100D2DA76 /* SZRigisterViewController.swift */; };
+		686228E4222D5ABD00D2DA76 /* SZRigisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686228E3222D5ABD00D2DA76 /* SZRigisterView.swift */; };
 		68B32A2D222CFC230068AFAA /* Business.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B32A2B222CFC230068AFAA /* Business.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68B32A30222CFC230068AFAA /* Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B32A29222CFC230068AFAA /* Business.framework */; };
 		68B32A31222CFC230068AFAA /* Business.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68B32A29222CFC230068AFAA /* Business.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -135,6 +137,8 @@
 		367E7213C98E224A19D6B3A7 /* Pods-ProjectTemplate Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate Dev/Pods-ProjectTemplate Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		410641C4AF861A16190ABFF6 /* Pods_NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		423703FFCFD5951E7C556457 /* Pods-Business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business.release.xcconfig"; path = "Pods/Target Support Files/Pods-Business/Pods-Business.release.xcconfig"; sourceTree = "<group>"; };
+		686228E1222D5A8100D2DA76 /* SZRigisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZRigisterViewController.swift; sourceTree = "<group>"; };
+		686228E3222D5ABD00D2DA76 /* SZRigisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZRigisterView.swift; sourceTree = "<group>"; };
 		68B32A29222CFC230068AFAA /* Business.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Business.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B32A2B222CFC230068AFAA /* Business.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
 		68B32A2C222CFC230068AFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -270,6 +274,8 @@
 				68B32A2C222CFC230068AFAA /* Info.plist */,
 				68B32A35222CFC580068AFAA /* SZLoginViewController.swift */,
 				68B32A50222CFF2A0068AFAA /* SZLoginView.swift */,
+				686228E1222D5A8100D2DA76 /* SZRigisterViewController.swift */,
+				686228E3222D5ABD00D2DA76 /* SZRigisterView.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -820,8 +826,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686228E4222D5ABD00D2DA76 /* SZRigisterView.swift in Sources */,
 				68B32A36222CFC580068AFAA /* SZLoginViewController.swift in Sources */,
 				68B32A51222CFF2A0068AFAA /* SZLoginView.swift in Sources */,
+				686228E2222D5A8100D2DA76 /* SZRigisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
