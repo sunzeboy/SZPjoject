@@ -21,6 +21,11 @@ target 'NetworkService' do
     need_pods
 end
 
+target 'Business' do
+    pod 'SnapKit'
+    pod 'Material'
+end
+
 post_install do |installer|       
    installer.pods_project.targets.each do |target| 
      puts target.name 

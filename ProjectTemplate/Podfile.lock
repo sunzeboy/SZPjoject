@@ -1,30 +1,46 @@
 PODS:
   - Alamofire (4.8.0)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
   - Moya (12.0.1):
     - Moya/Core (= 12.0.1)
   - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.0)
   - Result (4.0.0)
+  - SnapKit (4.2.0)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
+  - Material
   - Moya (~> 12.0)
+  - SnapKit
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Material
+    - Motion
     - Moya
     - Result
+    - SnapKit
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 2c04e06f2af0fe1d5122910b2d786a8757df0a4d
+PODFILE CHECKSUM: d4277f4d6c057cba48adcb716fba602d3ca5f275
 
 COCOAPODS: 1.5.3
