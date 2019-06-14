@@ -98,8 +98,8 @@ public class SZRigisterView: UIView {
             make.left.equalTo(nameField)
             make.width.equalTo(100)
         }
-        
-        sexControl = Switch(state: .on, style: .light, size: .small)
+
+        sexControl = Switch(state: .on,  size: .small)
         sexControl.delegate = delegate
         addSubview(sexControl)
         sexControl.snp.makeConstraints { (make) in

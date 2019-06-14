@@ -24,6 +24,7 @@ end
 target 'Business' do
     pod 'SnapKit'
     pod 'Material'
+    pod 'QMUIKit'
 end
 
 post_install do |installer|       

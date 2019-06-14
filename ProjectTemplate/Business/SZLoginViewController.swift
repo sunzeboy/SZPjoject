@@ -9,7 +9,7 @@
 import UIKit
 import Common
 import Material
-
+import QMUIKit
 
 public class SZLoginViewController: SZViewController<SZLoginView> ,TextFieldDelegate
 {
@@ -24,6 +24,7 @@ public class SZLoginViewController: SZViewController<SZLoginView> ,TextFieldDele
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         title = "登录"
+        QMUIConsole.log("123456")
     }
     
     public func textFieldDidEndEditing(_ textField: UITextField)
